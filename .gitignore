@@ -13,6 +13,10 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
+# js
+node_modules
+npm-debug.log
+
 # editors
 .vscode
 .idea
