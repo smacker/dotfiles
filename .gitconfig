@@ -1,0 +1,43 @@
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	stat = show --stat
+	ol = log --oneline
+	# Rebase shortcut
+	rc = rebase --continue
+	ra = rebase --abort
+	# Show verbose output about tags, branches or remotes
+	tags = tag -l
+	branches = branch -a
+	remotes = remote -v
+	cf = cat-file -p
+[apply]
+	# Detect whitespace errors when applying a patch
+	whitespace = fix
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[pull]
+	rebase = true # pull --rebase by default
+[push]
+	default = upstream
+[help]
+	# Automatically correct and execute mistyped commands
+	autocorrect = 1
+[user]
+	name = Maxim Sukharev
+	email = max@smacker.ru
