@@ -21,6 +21,7 @@ brew install imagemagick --with-webp
 # utils
 brew install bat
 brew install jq
+brew install fd
 
 # dev
 brew install cmake
