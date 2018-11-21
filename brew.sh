@@ -5,12 +5,13 @@
 # Make sure we’re using the latest Homebrew.
 brew update
 
-# Upgrade any already-installed formulae.
+# Upgrade any already-installed formulas.
 brew upgrade
 
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
+brew install bash
 
 # must have
 brew install git
@@ -34,3 +35,15 @@ brew install yarn
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# This is where brew stores its binary symlinks
+local binroot="$(brew --prefix)/bin"
+
+# set bash from homebrew as default shell
+if [[ "$(type -P $binroot/bash)" && "$(cat /etc/shells | grep -q "$binroot/bash")" ]]; then
+    echo "Adding $binroot/bash to the list of acceptable shells"
+    echo "$binroot/bash" | sudo tee -a /etc/shells >/dev/null
+    echo "Making $binroot/bash your default shell"
+    sudo chsh -s "$binroot/bash" "$USER" >/dev/null 2>&1
+    echo "Please exit and restart all your shells."
+fi
