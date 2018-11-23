@@ -1,6 +1,3 @@
-# Compiled Python files
-*.pyc
-
 # Folder view configuration files
 .DS_Store
 Desktop.ini
@@ -16,6 +13,10 @@ Thumbs.db
 # js
 node_modules
 npm-debug.log
+
+# python
+*.pyc
+.pyenv
 
 # editors
 .vscode
