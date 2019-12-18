@@ -28,7 +28,6 @@ brew install cmake
 brew install sqlite
 brew install kubernetes-cli
 brew install go
-brew install dep
 brew install node
 brew install nvm
 brew install yarn
