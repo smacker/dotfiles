@@ -13,7 +13,6 @@ alias dv="cd ~/Dev"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias wr="cd ~/Work"
-alias p="cd ~/Projects"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
