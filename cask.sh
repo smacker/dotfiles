@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 brew cask install iterm2
-brew cask install java8
 brew cask install 1password
 brew cask install firefox
 brew cask install google-chrome
