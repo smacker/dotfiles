@@ -16,3 +16,4 @@ brew cask install anki
 brew cask install transmission
 brew cask install zoomus
 brew cask install keepingyouawake
+brew cask install spotify
