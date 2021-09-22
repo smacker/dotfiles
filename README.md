@@ -1,38 +1,21 @@
 # Smacker's dotfiles
 
-Updated.
-
-### Contents:
-
-#### Configs
-
-- Bash: `.bashrc`, `.bash_profile`, `.bash_prompt`, `.exports`, `.aliases`
-  - Use `.extra` & `.path` for local changes
-- Git: `.gitconfig`, `.gitignore`
-- Vim: `.vimrc`, `.vim/*`
-
-#### Scripts
-
-- `macos.sh`: change some defaults for macOS
-- `brew.sh`: install command-line tools
-- `cask.sh`: install applications
-- `bootstrap.sh`: setup new mac
-
 ### Install
 
 - `xcode-select --install`
-- ???
+- install brew
 - `./bootstrap.sh`
 
-### Notes
+### Set bash as default shell
 
-#### Sync apps
-
-- 1password
-- Firefox
-- Chrome
-- Dropbox
-- VSCode (install `shan.code-settings-sync` extension first)
+```bash
+# get the full path to bash from brew
+echo "$(brew --prefix)/bin/bash"
+# add it to the list of allowed shells
+vim /etc/shells
+# change the default for current user
+chsh -s <path>
+```
 
 #### Laptop with *wrong* keyboard
 
