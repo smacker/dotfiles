@@ -14,9 +14,9 @@ brew install bash
 
 # must have
 brew install git
-brew install wget --with-iri
+brew install wget
 brew install curl
-brew install imagemagick --with-webp
+brew install imagemagick
 
 # utils
 brew install starship
