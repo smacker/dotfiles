@@ -19,6 +19,7 @@ brew install curl
 brew install imagemagick --with-webp
 
 # utils
+brew install starship
 brew install bat
 brew install jq
 brew install fd
