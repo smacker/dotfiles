@@ -19,6 +19,7 @@ brew cask install vlc
 
 # communications
 brew cask install telegram
+brew cask install whatsapp
 
 # dev
 brew cask install docker
