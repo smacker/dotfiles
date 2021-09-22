@@ -28,5 +28,5 @@ brew install --cask visual-studio-code
 
 # work
 brew install --cask slack
-brew install --cask zoomus
+brew install --cask zoom
 brew install --cask skype
