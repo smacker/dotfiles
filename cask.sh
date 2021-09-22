@@ -10,6 +10,7 @@ brew cask install dropbox
 # utils
 brew cask install tunnelbear
 brew cask install keepingyouawake
+brew cask install turbo-boost-switcher
 
 # entertainment
 brew cask install transmission
