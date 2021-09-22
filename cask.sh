@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 brew cask install iterm2
-brew cask install 1password
+brew cask install bitwarden
 brew cask install firefox
 brew cask install google-chrome
 brew cask install slack
