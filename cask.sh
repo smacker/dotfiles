@@ -17,6 +17,9 @@ brew cask install transmission
 brew cask install spotify
 brew cask install vlc
 
+# communications
+brew cask install telegram
+
 # dev
 brew cask install docker
 brew cask install visual-studio-code
