@@ -1,32 +1,32 @@
 #!/usr/bin/env bash
 
 # must have
-brew cask install iterm2
-brew cask install bitwarden
-brew cask install firefox
-brew cask install google-chrome
-brew cask install dropbox
+brew install --cask iterm2
+brew install --cask bitwarden
+brew install --cask firefox
+brew install --cask google-chrome
+brew install --cask dropbox
 
 # utils
-brew cask install tunnelbear
-brew cask install keepingyouawake
-brew cask install turbo-boost-switcher
+brew install --cask tunnelbear
+brew install --cask keepingyouawake
+brew install --cask turbo-boost-switcher
 
 # entertainment
-brew cask install transmission
-brew cask install spotify
-brew cask install vlc
-brew cask install plex
+brew install --cask transmission
+brew install --cask spotify
+brew install --cask vlc
+brew install --cask plex
 
 # communications
-brew cask install telegram
-brew cask install whatsapp
+brew install --cask telegram
+brew install --cask whatsapp
 
 # dev
-brew cask install docker
-brew cask install visual-studio-code
+brew install --cask docker
+brew install --cask visual-studio-code
 
 # work
-brew cask install slack
-brew cask install zoomus
-brew cask install skype
+brew install --cask slack
+brew install --cask zoomus
+brew install --cask skype
