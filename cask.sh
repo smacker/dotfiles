@@ -11,7 +11,6 @@ brew cask install dropbox
 brew cask install docker
 brew cask install visual-studio-code
 brew cask install skype
-brew cask install anki
 brew cask install transmission
 brew cask install zoomus
 brew cask install keepingyouawake
