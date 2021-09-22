@@ -16,6 +16,7 @@ brew cask install turbo-boost-switcher
 brew cask install transmission
 brew cask install spotify
 brew cask install vlc
+brew cask install plex
 
 # communications
 brew cask install telegram
