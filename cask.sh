@@ -26,6 +26,7 @@ brew install --cask whatsapp
 # dev
 brew install --cask docker
 brew install --cask visual-studio-code
+brew install --cask android-platform-tools
 
 # work
 brew install --cask slack
