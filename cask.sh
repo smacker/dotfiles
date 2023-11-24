@@ -12,6 +12,7 @@ brew install --cask google-drive
 # utils
 brew install --cask tunnelbear
 brew install --cask keepingyouawake
+brew install --cask tomatobar
 
 # entertainment
 brew install --cask transmission
