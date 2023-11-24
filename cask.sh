@@ -35,6 +35,9 @@ brew install --cask slack
 brew install --cask zoom
 brew install --cask skype
 
+# other
+brew install --cask anki
+
 # fonts
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code-nerd-font
