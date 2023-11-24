@@ -18,7 +18,7 @@ brew install --cask tomatobar
 brew install --cask transmission
 brew install --cask spotify
 brew install --cask vlc
-brew install --cask plex
+brew install --cask plex-media-server
 
 # communications
 brew install --cask telegram
