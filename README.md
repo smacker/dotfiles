@@ -17,15 +17,11 @@ vim /etc/shells
 chsh -s <path>
 ```
 
-#### Laptop with *wrong* keyboard
+#### Laptop with _wrong_ keyboard
 
 ```
 brew cask install karabiner-elements
 ```
-
-#### TODO
-
-- review vim config. it's way too old
 
 ### Acknowledges
 
