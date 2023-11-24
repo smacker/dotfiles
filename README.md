@@ -17,6 +17,16 @@ vim /etc/shells
 chsh -s <path>
 ```
 
+### List of apps from AppStore
+
+- Microsoft To Do
+- Toggl Track
+- Coin Tick (https://github.com/alecananian/osx-coin-ticker)
+
+### List of apps from Github
+
+- Mochi Diffusion
+
 #### Laptop with _wrong_ keyboard
 
 ```
