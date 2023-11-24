@@ -7,6 +7,7 @@ brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask brave-browser
 brew install --cask dropbox
+brew install --cask google-drive
 
 # utils
 brew install --cask tunnelbear
