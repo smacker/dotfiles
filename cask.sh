@@ -11,7 +11,6 @@ brew install --cask dropbox
 # utils
 brew install --cask tunnelbear
 brew install --cask keepingyouawake
-brew install --cask turbo-boost-switcher
 
 # entertainment
 brew install --cask transmission
