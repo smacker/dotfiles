@@ -17,3 +17,7 @@ defaults write com.apple.dock autohide -bool true
 
 # Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
 defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
+
+# Use custom config for iTerm2
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/Dev/dotfiles"
+defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
