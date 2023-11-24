@@ -33,3 +33,8 @@ brew install --cask android-platform-tools
 brew install --cask slack
 brew install --cask zoom
 brew install --cask skype
+
+# fonts
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code-nerd-font
+brew install --cask font-monaspace

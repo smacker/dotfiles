@@ -17,15 +17,6 @@ vim /etc/shells
 chsh -s <path>
 ```
 
-### Install and enable Nerd font for starship
-
-```
-brew tap homebrew/cask-fonts &&
-brew install --cask font-fira-code-nerd-font
-```
-
-Open iTerm -> Preferences -> Profiles -> Text and choose the font.
-
 #### Laptop with *wrong* keyboard
 
 ```
