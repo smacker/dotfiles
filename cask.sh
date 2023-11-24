@@ -37,6 +37,7 @@ brew install --cask skype
 
 # other
 brew install --cask anki
+brew install --cask obsidian
 
 # fonts
 brew tap homebrew/cask-fonts
