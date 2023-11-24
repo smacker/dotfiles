@@ -33,6 +33,7 @@ brew install go
 brew install node
 brew install nvm
 brew install yarn
+brew install pnpm
 
 # Remove outdated versions from the cellar.
 brew cleanup
