@@ -23,6 +23,7 @@ brew install starship
 brew install bat
 brew install jq
 brew install fd
+brew install ripgrep
 
 # dev
 brew install cmake
