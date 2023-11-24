@@ -5,6 +5,7 @@ brew install --cask iterm2
 brew install --cask bitwarden
 brew install --cask firefox
 brew install --cask google-chrome
+brew install --cask brave-browser
 brew install --cask dropbox
 
 # utils
