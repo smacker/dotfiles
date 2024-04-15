@@ -29,16 +29,20 @@ brew install --cask docker
 brew install --cask visual-studio-code
 brew install --cask android-platform-tools
 brew install --cask postman
+brew install --cask dbeaver-community
+brew install --cask session-manager-plugin
 
 # work
 brew install --cask slack
 brew install --cask zoom
 brew install --cask skype
+brew install --cask loom
 
 # other
 brew install --cask anki
 brew install --cask obsidian
 brew install --cask calibre
+brew install --cask raycast
 
 # fonts
 brew tap homebrew/cask-fonts
