@@ -34,6 +34,7 @@ brew install cmake
 brew install sqlite
 brew install kubernetes-cli
 brew install aws-iam-authenticator
+brew install awscli
 brew install go
 brew install node
 brew install nvm
