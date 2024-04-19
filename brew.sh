@@ -19,6 +19,7 @@ brew install curl
 brew install imagemagick
 
 # security
+brew install openssh
 brew install gnupg
 brew install pinentry-mac
 
