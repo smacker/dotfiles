@@ -18,6 +18,10 @@ brew install wget
 brew install curl
 brew install imagemagick
 
+# security
+brew install gnupg
+brew install pinentry-mac
+
 # utils
 brew install starship
 brew install bat
