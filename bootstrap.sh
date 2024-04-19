@@ -27,3 +27,6 @@ ln -s $(pwd)/.vim/autoload $HOME/.vim/autoload
 ln -s $(pwd)/.vim/colors $HOME/.vim/colors
 ln -s $(pwd)/.vim/plugin $HOME/.vim/plugin
 ln -s $(pwd)/.vim/tags $HOME/.vim/tags
+
+mkdir -p $HOME/.gnupg
+ln -s $(pwd)/.gnupg/gpg-agent.conf $HOME/.gnupg/gpg-agent.conf
