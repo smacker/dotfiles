@@ -26,6 +26,7 @@ brew install --cask whatsapp
 
 # dev
 brew install --cask docker
+brew install docker-compose # compose is a plugin now and needs to be installed separately
 brew install --cask visual-studio-code
 brew install --cask android-platform-tools
 brew install --cask postman
