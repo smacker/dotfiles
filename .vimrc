@@ -1,5 +1,10 @@
-" Use the Solarized Light theme
-set background=light
+" Use the Solarized theme following system theme
+let theme = system('defaults read -g AppleInterfaceStyle')
+if theme =~ 'Dark'
+    set background=dark
+else
+    set background=light
+endif
 colorscheme solarized
 
 " Make Vim more useful
