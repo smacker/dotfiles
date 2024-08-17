@@ -41,8 +41,9 @@
 [user]
 	name = Maxim Sukharev
 	email = max@smacker.ru
-	signingKey = 7B6CE83FE0612ADC
 [commit]
 	gpgsign = true
 [gpg]
 	program = gpg
+[include]
+	path = ~/.gitconfig.local
