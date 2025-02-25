@@ -48,3 +48,7 @@ case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
+
+# bat
+export BAT_THEME_DARK="Catppuccin Macchiato"
+export BAT_THEME_LIGHT="Catppuccin Latte"

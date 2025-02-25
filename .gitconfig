@@ -23,6 +23,7 @@
 	diffFilter = delta --color-only
 [delta]
 	navigate = true
+	features = catppuccin-macchiato
 [merge]
 	conflictstyle = zdiff3
 [diff]
@@ -60,6 +61,7 @@
 	program = gpg
 [include]
 	path = ~/.gitconfig.local
+	path = ~/.git/delta-catppuccin.gitconfig
 [column]
 	ui = auto
 [branch]

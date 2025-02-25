@@ -30,3 +30,8 @@ ln -s $(pwd)/.vim/tags $HOME/.vim/tags
 
 mkdir -p $HOME/.gnupg
 ln -s $(pwd)/.gnupg/gpg-agent.conf $HOME/.gnupg/gpg-agent.conf
+
+ln -s $(pwd)/bat $HOME/.config/bat
+ln -s $(pwd)/ghostty $HOME/.config/ghostty
+ln -s $(pwd)/delta/catppuccin.gitconfig  $HOME/.git/delta-catppuccin.gitconfig
+
