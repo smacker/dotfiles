@@ -18,6 +18,17 @@
 [core]
 	excludesfile = ~/.gitignore
 	editor = vim
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+[merge]
+	conflictstyle = zdiff3
+[diff]
+	colorMoved = default
+	algorithm = histogram
+	renames = true
 [color "branch"]
 	current = yellow reverse
 	local = yellow
@@ -35,9 +46,11 @@
 	rebase = true # pull --rebase by default
 [push]
 	default = upstream
+	autoSetupRemote = true
+	followTags = true
 [help]
 	# Automatically correct and execute mistyped commands
-	autocorrect = 1
+	autocorrect = immediate
 [user]
 	name = Maxim Sukharev
 	email = max@smacker.ru
@@ -47,3 +60,11 @@
 	program = gpg
 [include]
 	path = ~/.gitconfig.local
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[tag]
+	sort = version:refname
+[init]
+	defaultBranch = main
