@@ -42,6 +42,7 @@ brew install yarn
 brew install pnpm
 brew install colima
 brew install httpie
+brew install git-delta
 
 # Remove outdated versions from the cellar.
 brew cleanup
