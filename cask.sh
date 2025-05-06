@@ -44,6 +44,7 @@ brew install --cask anki
 brew install --cask obsidian
 brew install --cask calibre
 brew install --cask raycast
+brew install --cask todoist
 
 # fonts
 brew tap homebrew/cask-fonts
