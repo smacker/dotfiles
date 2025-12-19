@@ -1,3 +1,6 @@
+" enable new regexp engine to avoid freezes on mac
+set re=2
+
 " required by catppucin theme
 set termguicolors
 
