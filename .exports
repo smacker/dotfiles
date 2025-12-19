@@ -50,5 +50,6 @@ case ":$PATH:" in
 esac
 
 # bat
-export BAT_THEME_DARK="Catppuccin Macchiato"
-export BAT_THEME_LIGHT="Catppuccin Latte"
+export BAT_THEME="TwoDark"
+export BAT_THEME_DARK="TwoDark"
+export BAT_THEME_LIGHT="TwoLight"

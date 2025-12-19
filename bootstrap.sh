@@ -34,6 +34,5 @@ ln -s $(pwd)/.gnupg/gpg-agent.conf $HOME/.gnupg/gpg-agent.conf
 ln -s $(pwd)/bat $HOME/.config/bat
 ln -s $(pwd)/ghostty $HOME/.config/ghostty
 
-mkdir -p $HOME/.git
-ln -s $(pwd)/delta/catppuccin.gitconfig $HOME/.git/delta-catppuccin.gitconfig
+ln -s $(pwd)/delta/delta-two-theme.gitconfig $HOME/.delta-two-theme.gitconfig
 

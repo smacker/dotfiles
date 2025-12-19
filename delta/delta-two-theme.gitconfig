@@ -1,0 +1,75 @@
+# Delta themes generated from `sources/one.vim` (Atom One-inspired).
+#
+# Usage:
+#   [include]
+#       path = /path/to/delta-two-theme.gitconfig
+#
+#   [delta]
+#       features = two-dark
+#   # or
+#   [delta]
+#       features = two-light
+#
+
+[delta "two-dark"]
+    # Palette source: `sources/one.vim` (dark branch)
+    dark = true
+    syntax-theme = TwoDark
+    # File / commit headers
+    file-style = "#61afef" bold
+    file-decoration-style = "#636d83" ul
+    commit-style = "#c678dd"
+    commit-decoration-style = "#3e4452" box
+    # Hunk headers
+    hunk-header-style = file line-number syntax
+    hunk-header-decoration-style = "#3e4452" box
+    hunk-header-file-style = "#56b6c2"
+    hunk-header-line-number-style = "#d19a66"
+    # Line numbers
+    line-numbers = true
+    line-numbers-left-format = " {nm:>4} │"
+    line-numbers-right-format = " {np:>4} │"
+    line-numbers-left-style = "#636d83"
+    line-numbers-right-style = "#636d83"
+    line-numbers-plus-style = "#98c379"
+    line-numbers-minus-style = "#e06c75"
+    line-numbers-zero-style = "#5c6370"
+    # Diff contents
+    zero-style = syntax
+    plus-style = syntax "#334036"
+    plus-emph-style = bold "#98c379" "#2f4635"
+    minus-style = syntax "#403335"
+    minus-emph-style = bold "#e06c75" "#463034"
+    whitespace-error-style = "#be5046" reverse
+
+[delta "two-light"]
+    # Palette source: `sources/one.vim` (light branch)
+    light = true
+    syntax-theme = TwoLight
+    # File / commit headers
+    file-style = "#4078f2" bold
+    file-decoration-style = "#9e9e9e" ul
+    commit-style = "#a626a4"
+    commit-decoration-style = "#d0d0d0" box
+    # Hunk headers
+    hunk-header-style = file line-number syntax
+    hunk-header-decoration-style = "#d0d0d0" box
+    hunk-header-file-style = "#0184bc"
+    hunk-header-line-number-style = "#986801"
+    # Line numbers
+    line-numbers = true
+    line-numbers-left-format = " {nm:>4} │"
+    line-numbers-right-format = " {np:>4} │"
+    line-numbers-left-style = "#9e9e9e"
+    line-numbers-right-style = "#9e9e9e"
+    line-numbers-plus-style = "#50a14f"
+    line-numbers-minus-style = "#e45649"
+    line-numbers-zero-style = "#a0a1a7"
+    # Diff contents
+    zero-style = syntax
+    # Subtle tinted backgrounds for +/− lines on light terminals (e.g. ~#dfdfdf).
+    plus-style = syntax "#e3f1e7"
+    plus-emph-style = bold "#50a14f" "#d7eadc"
+    minus-style = syntax "#f1e3e5"
+    minus-emph-style = bold "#e45649" "#ead6d9"
+    whitespace-error-style = "#ca1243" reverse

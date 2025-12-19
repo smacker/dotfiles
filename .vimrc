@@ -4,14 +4,13 @@ set re=2
 " required by catppucin theme
 set termguicolors
 
-" Use the Solarized theme following system theme
+" Use theme following system theme
+colorscheme one
 let theme = system('defaults read -g AppleInterfaceStyle')
 if theme =~ 'Dark'
     set background=dark
-    colorscheme catppuccin_macchiato
 else
     set background=light
-    colorscheme catppuccin_latte
 endif
 
 " Make Vim more useful

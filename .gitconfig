@@ -18,9 +18,9 @@
 [core]
 	excludesfile = ~/.gitignore
 	editor = vim
-	pager = delta
+	pager = delta --features=$(defaults read -globalDomain AppleInterfaceStyle > /dev/null 2>&1 && echo two-dark || echo two-light)
 [interactive]
-	diffFilter = delta --color-only --features$(defaults read -globalDomain AppleInterfaceStyle > /dev/null 2>&1 && echo catppuccin-macchiato || echo catppuccin-latte)
+	diffFilter = delta --color-only --features=$(defaults read -globalDomain AppleInterfaceStyle > /dev/null 2>&1 && echo two-dark || echo two-light)
 [delta]
 	navigate = true
 [merge]
@@ -57,10 +57,10 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg
+	program = /opt/homebrew/bin/gpg
 [include]
 	path = ~/.gitconfig.local
-	path = ~/.git/delta-catppuccin.gitconfig
+	path = ~/.delta-two-theme.gitconfig
 [column]
 	ui = auto
 [branch]
