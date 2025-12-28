@@ -23,9 +23,11 @@ chsh -s <path>
 - Toggl Track
 - Coin Tick (https://github.com/alecananian/osx-coin-ticker)
 
-### List of apps from Github
+### Raycast
 
-- Mochi Diffusion
+1. Open, type "Export Settings & Data" on existing laptop
+2. On new Mac run Raycast and skip on-boarding
+3. Airdrop the config and open it on the new Mac
 
 ### Setting up gpg to sign commits
 
