@@ -1,13 +1,17 @@
 # --- History settings ---
 HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=50000
+SAVEHIST=50000
 # Append history immediately (don't wait for session exit)
 setopt INC_APPEND_HISTORY
 # Share history between different tabs/windows
 setopt SHARE_HISTORY
 # Keep history cleaner
 setopt HIST_IGNORE_DUPS
+# Commands starting with space won't be saved
+setopt HIST_IGNORE_SPACE
+# Remove extra whitespace from history
+setopt HIST_REDUCE_BLANKS
 
 # --- Autocomplete & Highlighting ---
 autoload -Uz compinit && compinit
@@ -16,8 +20,10 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 # Use a menu to select items when hit tab
 zstyle ':completion:*' menu select
 
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Cache brew prefix once for performance
+BREW_PREFIX=$(brew --prefix)
+source $BREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $BREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#7f848e' # slightly lighter than Atom One comment, it looks better
 
