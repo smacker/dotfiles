@@ -30,6 +30,10 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#7f848e' # slightly lighter than Atom One co
 # Enable vi mode
 bindkey -v
 
+# Accept autosuggestions with Ctrl+Space or Ctrl+F
+bindkey '^ ' autosuggest-accept
+bindkey '^F' autosuggest-accept-word
+
 # --- Integrations ---
 # Prompt (Starship)
 eval "$(starship init zsh)"
