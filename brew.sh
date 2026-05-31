@@ -29,6 +29,7 @@ brew install bat
 brew install jq
 brew install fd
 brew install ripgrep
+brew install fzf
 
 # dev
 brew install cmake
@@ -38,11 +39,18 @@ brew install awscli
 brew install go
 brew install node
 brew install nvm
-brew install yarn
+brew install oven-sh/bun/bun
 brew install pnpm
 brew install colima
+brew install docker
+brew install docker-compose
 brew install httpie
 brew install git-delta
+brew install k6
+
+# zsh extensions
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
 
 # Remove outdated versions from the cellar.
 brew cleanup

@@ -8,11 +8,7 @@ source ./cask.sh
 
 # Create links
 
-ln -s $(pwd)/.bashrc $HOME/.bashrc
-ln -s $(pwd)/.bash_profile $HOME/.bash_profile
-ln -s $(pwd)/.bash_prompt $HOME/.bash_prompt
-ln -s $(pwd)/.aliases $HOME/.aliases
-ln -s $(pwd)/.exports $HOME/.exports
+ln -s $(pwd)/.zshrc $HOME/.zshrc
 
 ln -s $(pwd)/.gitconfig $HOME/.gitconfig
 ln -s $(pwd)/.gitignore $HOME/.gitignore
@@ -31,8 +27,12 @@ ln -s $(pwd)/.vim/tags $HOME/.vim/tags
 mkdir -p $HOME/.gnupg
 ln -s $(pwd)/.gnupg/gpg-agent.conf $HOME/.gnupg/gpg-agent.conf
 
+mkdir -p $HOME/.config
 ln -s $(pwd)/bat $HOME/.config/bat
 ln -s $(pwd)/ghostty $HOME/.config/ghostty
 
 ln -s $(pwd)/delta/delta-two-theme.gitconfig $HOME/.delta-two-theme.gitconfig
+
+# we need to rebuild bat cache after adding new theme
+bat cache --build
 
