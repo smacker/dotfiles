@@ -27,12 +27,11 @@ source $BREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#7f848e' # slightly lighter than Atom One comment, it looks better
 
-# Enable vi mode
-bindkey -v
-
 # Accept autosuggestions with Ctrl+Space or Ctrl+F
 bindkey '^ ' autosuggest-accept
 bindkey '^F' autosuggest-accept-word
+# Regular history search shortcut
+bindkey '^R' history-incremental-search-backward
 
 # --- Integrations ---
 # Prompt (Starship)
@@ -40,3 +39,4 @@ eval "$(starship init zsh)"
 
 # iTerm2 integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
