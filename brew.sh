@@ -38,7 +38,7 @@ brew install kubernetes-cli
 brew install awscli
 brew install go
 brew install node
-brew install nvm
+brew install mise
 brew install oven-sh/bun/bun
 brew install pnpm
 brew install colima

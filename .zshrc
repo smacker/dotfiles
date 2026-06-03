@@ -34,6 +34,9 @@ setopt AUTO_CD
 
 # --- Integrations ---
 
+# Activate mise
+eval "$(mise activate zsh)"
+
 # Prompt (Starship)
 eval "$(starship init zsh)"
 

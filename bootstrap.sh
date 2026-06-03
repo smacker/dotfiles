@@ -30,6 +30,7 @@ ln -s $(pwd)/.gnupg/gpg-agent.conf $HOME/.gnupg/gpg-agent.conf
 mkdir -p $HOME/.config
 ln -s $(pwd)/bat $HOME/.config/bat
 ln -s $(pwd)/ghostty $HOME/.config/ghostty
+ln -s $(pwd)/config/mise $HOME/.config/mise
 
 ln -s $(pwd)/delta/delta-two-theme.gitconfig $HOME/.delta-two-theme.gitconfig
 
